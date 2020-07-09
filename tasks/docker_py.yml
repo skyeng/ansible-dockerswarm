@@ -3,5 +3,5 @@
 - name: Install pip docker
   pip:
     executable: "{{ pip_executable }}"
-    name: docker
+    name: docker-py==1.10.6
     state: present
